@@ -1,0 +1,8 @@
+.logInForm,.SignUpForm{
+    background-color: #EAFAF8;
+}
+.home{
+    height: 100vh;
+    /* background: rgb(173,59,59); */
+    background: linear-gradient(117deg, rgba(173,59,59,1) 13%, rgba(113,53,83,1) 42%, rgba(61,61,122,1) 79%, rgba(82,58,106,1) 100%);
+}

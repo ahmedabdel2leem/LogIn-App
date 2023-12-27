@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrab -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row ">
+         <div class="parent d-flex justify-content-center position-relative">
+
+
+            <!-- TODO: -->
+            <!-----------------
+                 hidden SignUp
+                  ----------------------->
+                  <div id="signUp"  class="col-12 col-md-4 d-none ">
+                    <div class="SignUpForm px-lg-5  rounded-4 ">
+                        <h3 class="text-center pt-5 ">Sign Up</h3>
+                        <div class="email-group my-3">
+                            <label for="upNameInput">Enter Name : </label>
+                            <input id="upNameInput" type="text" class="form-control"  >
+                        </div>
+                        <div class="email-group my-2">
+                            <label for="upEmailInput">Enter Email : </label>
+                            <input id="upEmailInput" type="email" class="form-control"  >
+                        </div>
+                        <div class="passwrod-group my-2">
+                            <label for="upPassInput">Enter password : </label>
+                            <input id="upPassInput" type="password" class="form-control"  >
+                        </div>
+                        <div id="upHiddenText" class="d-none  text-center text-danger ">
+                                 All inputs must be fulfilled
+                        </div>
+                        <div class="py-4">
+                            <button id="UpBtn" type="button" class="btn btn-dark w-100 mb-sm-1 ">Sing UP</button>
+                            <button id="switchBtn" class="px-3  d-md-none  w-100 btn btn-dark ">Log In</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- transiotion -->
+            <div id="transtion-shape" class="col-3 d-none d-md-block ">
+                <div class="transtion bg-black h-100 text-center pt-5 rounded-4">
+                    <img src="images/undraw_social_dashboard_re_ocbd.svg" class="mb-3 w-50" alt="" srcset="">
+                    <p class="text-white my-5">Simple logIn app</p>
+                    <button id="switchBtn" class="px-3 w-100 btn btn-dark mt-3">SignUp</button>
+                </div>
+            </div>
+
+
+            <!-- TODO: ------------------------
+                -LOgIn ----------------------->
+            <div id="logIn" class=" col-12  col-md-4  ">
+                <div class="logInForm px-lg-5  rounded-4 ">
+                    <h3 class="text-center pt-5 ">Log In</h3>
+                    <div class="email-group my-4">
+                        <label for="inEmailInput">Enter Email : </label>
+                        <input id="inEmailInput" type="email" class="form-control"  >
+                    </div>
+                    <div class="passwrod-group my-3">
+                        <label for="inPassInput">Enter password : </label>
+                        <input id="inPassInput" type="password" class="form-control"  >
+                    </div>
+                    <div id="inHiddenText" class="d-none  text-center text-danger ">
+                        All inputs must be fulfilled
+                    </div>
+            <div class="w-100 py-md-5 py-sm-2">
+                <button id="inBtn" type="button" class="btn btn-dark w-100 mb-sm-2 ">Log In</button>
+                <button id="switchBtn" class="px-3  d-md-none  w-100 btn btn-dark ">SignUp</button>
+            </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
